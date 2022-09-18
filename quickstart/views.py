@@ -8,9 +8,6 @@ from rest_framework import permissions
 from quickstart.serializers import UserSerializer, GroupSerializer
 
 
-def index_(request):
-    return render(request,'index.html')
-
 
 class UserViewSet(viewsets.ModelViewSet):
     """
